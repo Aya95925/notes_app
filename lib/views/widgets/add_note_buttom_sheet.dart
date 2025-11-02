@@ -12,7 +12,7 @@ class AddNoteButtomSheet extends StatelessWidget {
         children: [
           const CustomTextFiels(label: 'Title'),
           SizedBox(height: 16),
-          const CustomTextFiels(label: 'Content'),
+          const CustomTextFiels(label: 'Content', maxLines: 5),
 
           // Add your form fields and buttons here
         ],
