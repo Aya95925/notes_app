@@ -14,6 +14,7 @@ class CustomTextFiels extends StatelessWidget {
         labelText: label,
         labelStyle: TextStyle(color: kprimaryColor),
         border: buildBorder(),
+        enabledBorder: buildBorder(),
       ),
     );
   }
