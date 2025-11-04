@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:notes_app/constant.dart';
 
 class CustomTextFiels extends StatelessWidget {
-  const CustomTextFiels({super.key, required this.label, this.maxLines = 1, required this.onSaved});
+  const CustomTextFiels({super.key, required this.label, this.maxLines = 1,  this.onSaved});
   final String label;
   final int maxLines;
-  final void Function(String?)? onSaved;
+   final void Function(String?)? onSaved;
   @override
   Widget build(BuildContext context) {
     return TextFormField(
